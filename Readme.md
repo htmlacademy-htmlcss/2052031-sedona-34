@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [afkmaster](https://up.htmlacademy.ru/htmlcss/34/user/2052031).
-* Наставник: `Неизвестно`.
+* Наставник: Roman Zheltov.
 
 ---
 
