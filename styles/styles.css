@@ -22,15 +22,53 @@
     background-color: #ffff;
     margin: 0;
     width: 1200px;
+    
   }
 
   .page-header {
+    display: flex;
     font-weight: 700;
     font-size: 20px;
+    border: 3px solid rgb(223, 63, 63);
+    margin-right: auto; 
+  }
+
+  .logo-header {
+    padding-left: 70px;
+    outline: 2px solid rgb(74, 41, 223);
+  }
+
+  .navigation {
+    padding-left: 30px;
+    display: flex;
+    outline: 2px solid rgb(58, 216, 58);
   }
 
   .navigation-list {
     list-style-type: none;
+    width: 390px;
+    display: flex;
+    margin: 0;
+    
+    padding: 20px;
+    padding-left: 17px;
+    padding-right: 62px;
+    outline: 1px solid rgb(0, 0, 0); 
+  }
+
+  .navigation-user {
+    width: 264px;
+    margin-left: 30px;
+  }
+
+  .navigation-item {
+    margin-left: 34px;
+
+  }
+
+  .navigation-link {
+    text-decoration: none;
+    color: #000000;
   }
 
   .welcome {
