@@ -76,7 +76,7 @@
   }
 
   .logo-container {
-    background-image: url("images/index/index-background.jpg");
+    background-image: url("../images/index/index-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 51px;
