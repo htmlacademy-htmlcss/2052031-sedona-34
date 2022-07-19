@@ -256,6 +256,7 @@
 
   .advantages-container {
     display: flex;
+    flex-grow: 2;
   }
 
   .page-footer {
@@ -267,4 +268,7 @@
   .footer-social-list {
     list-style-type: none;
     display: flex;
+  }
+  .visually-hidden {
+    visibility: hidden;
   }
