@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -26,7 +26,7 @@
     line-height: 26px;
     color: black;
     background-color: #F2F2F2;
-    margin: 0;
+    margin: 0 auto;
     min-height: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 1200px;
@@ -52,6 +52,7 @@
   .navigation {
     display: flex;
     margin: 0 auto;
+    width: 900px;
     outline: 2px solid rgb(58, 216, 58);
   }
 
@@ -66,7 +67,6 @@
   }
 
   .navigation-user {
-
     margin-left: auto;
   }
 
@@ -100,12 +100,53 @@
   }
 
   .advantages-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
   }
 
   .advantages-item {
+    display: flex;
     font-size: 18px;
     line-height: 21px;
+  }
+
+  .blue-advantages {
+    background-color: #82B3D3;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .light-blue-advantages {
+    width: 400px;
+    height: 384px;
+    color: #000000;
+    background: rgba(131, 179, 211, 0.12);
+  }
+
+  .white-advantages {
+    background-color: #ffff;
+    width: 400px;
+    height: 384px;
+    color: #000000;
+  }
+
+  .gray-advantages {
+    width: 400px;
+    height: 384px;
+    color: #000000;
+    background: rgba(131, 179, 211, 0.2);
+  }
+
+  .advantages-container {
+    width: 230px;
+    margin: auto;
   }
 
   .advantages-title {
@@ -129,21 +170,11 @@
   }
 
   .subscribe {
-    text-align: center;
-    height: 411px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #ffffff;
-  }
-
-  .subscribe-title {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-  }
-
-  .subscribe-describtion {
-    font-size: 22px;
-    line-height: 26px;
 
   }
 
@@ -153,15 +184,35 @@
     background-position: center;
   }
 
+  .subscribe-catalog {
+    background-color: #ffffff;
+  }
+
+  .subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 94px;
+  }
+
+  .subscribe-describtion {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+    padding-top: 29px;
+  }
+
+  .subscribe-form {
+    padding-top: 46px;
+    padding-bottom: 94px;
+  }
+
   .button {
     background-color: #756157;
     color: #ffffff;
     text-decoration: none;
-  }
-
-  .catalog-services {
-    background-image: url("../images/catalog/catalog-background.jpg");
-    background-repeat: no-repeat;
   }
 
   .product-card-button {
@@ -171,6 +222,15 @@
 
   .button-add {
     background-color: #82B3D3;
+  }
+
+  .search-hotels .button-big {
+    margin-top: 56px;
+  }
+
+  .catalog-services {
+    background-image: url("../images/catalog/catalog-background.jpg");
+    background-repeat: no-repeat;
   }
 
   .pagination-item {
@@ -200,6 +260,17 @@
     text-align: center;
   }
 
+  .search-hotels-title {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 91px;
+  }
+
+  .search-hotels-describtion {
+    margin: 0;
+    padding-top: 29px;
+  }
+
   .main-container {
     flex-grow: 1;
   }
@@ -209,21 +280,16 @@
 
   }
 
-  .advantages-list {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #ffffff;
+  .page-footer {
     display: flex;
-    flex-wrap: wrap;
-
+    justify-content: space-around;
+    background-color: #ffffff;
   }
 
-  .advantages-item {
-    width: 400px;
-    outline: 3px solid rgb(47, 61, 187);
-  }
-
-  .advantages-container {
+  .footer-social-list {
+    list-style-type: none;
     display: flex;
+  }
+  .visually-hidden {
+    visibility: hidden;
   }
